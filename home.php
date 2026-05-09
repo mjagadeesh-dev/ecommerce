@@ -108,6 +108,16 @@ if (isset($_POST['logout'])) {
                         <button type="submit" name="add_to_cart" class="add-to-cart-button">Add to Cart</button>
                     </form>
                 </div>
+                <div class="product">
+                    <img src="img/sound bar.webp" alt="Special Item" class="product-image">
+                    <h3>Sound Bar</h3>
+                    <p>Price: ₹15,999</p>
+                    <p>Enhance your home entertainment with this powerful sound bar.</p>
+                    <form method="POST" action="pages/cart.php">
+                        <input type="hidden" name="product_id" value="7">
+                        <button type="submit" name="add_to_cart" class="add-to-cart-button">Add to Cart</button>
+                    </form>
+                </div>
             </div>
         </main>
     </div>

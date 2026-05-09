@@ -234,7 +234,7 @@ $total_cost = 0;  // Initialize total cost variable
             </div>
         <?php endif; ?>
         <div class="cart-actions">
-            <a href="../index.php">Back to Shop</a>
+            <a href="../home.php">Back to Shop</a>
             <a href="checkout.php">Proceed to Checkout</a>
         </div>
         </main>
